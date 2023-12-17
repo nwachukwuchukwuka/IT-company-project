@@ -3638,9 +3638,7 @@ option {
   visibility: visible;
   top: 150%;
 }
-.header-bottom-area .navbar-collapse .main-menu li.menu_has_children a:hover {
-  color: #fff;
-}
+
 .header-bottom-area .navbar-collapse .main-menu li:hover .toggle-bar .element {
   background-color: #fff !important;
 }
@@ -3888,7 +3886,7 @@ option {
 }
 @media only screen and (max-width: 991px) {
   .site-logo {
-    max-width: 150px;
+    max-width: 100px;
     margin-right: 0;
   }
 }
@@ -4084,7 +4082,7 @@ option {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
-  background: transparent;
+  background-color: #3249B3;
   border: 1px solid #fff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -4340,7 +4338,7 @@ option {
   }
 }
 .header-bottom-area .menu-toggler-wrapper .main-menu li a {
-  color: #fff;
+  color: black;
 }
 .header-bottom-area .search-bar {
   opacity: 1;
