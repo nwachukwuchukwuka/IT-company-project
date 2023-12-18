@@ -3516,7 +3516,7 @@ option {
   }
 }
 .header-section.two .header-bottom-area .main-menu li a:hover {
-  color: #3249B3 !important;
+  color: black !important;
 }
 .header-section.two .header-bottom-area .main-menu li a:hover::before {
   background-color: #3249B3 !important;
