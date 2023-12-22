@@ -8209,7 +8209,7 @@ div[class*=col]:nth-of-type(3n + 3) .footer-contact-list .link-title {
 
 /* card image for project */
 .card {
-  width: 500px;
+  width: 540px;
   height: 500px;
   border: 1px solid #ccc;
   border-radius: 8px;
