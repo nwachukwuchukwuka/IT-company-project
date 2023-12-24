@@ -3613,6 +3613,9 @@ option {
     width: 100%;
   }
 }
+
+
+
 .header-bottom-area .navbar-collapse .main-menu li:last-child .sub-menu {
   left: auto;
   right: 0;
@@ -3687,6 +3690,19 @@ option {
     display: none;
   }
 }
+
+.responsive-logo {
+  max-width: 130px;
+}
+
+
+/* For larger screens (desktops) */
+@media screen and (min-width: 1500px) {
+  .responsive-logo {
+      max-width: 200px; 
+  }
+}
+
 .header-bottom-area .navbar-collapse .main-menu li a.site-logo::before {
   display: none !important;
 }
